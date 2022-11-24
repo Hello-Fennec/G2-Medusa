@@ -181,6 +181,51 @@ html{
     left: 2rem;
 }
 
+.boxbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: fit-content;
+    padding-top: 3em;
+    gap: 20px;
+    
+}
+.poom-1{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.dear-2{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.earn-3{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.book-4{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.phing-5{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.mook-6{
+    flex-basis: 33.33%;
+    width: 25em;
+    height: 15em;
+}
+.textme {
+    font-size: 4em;
+   text-align: center;
+   padding-top: 40px;
+   color: white;
+}
 /* animation start */
 
 

@@ -11,12 +11,6 @@ import athena from "./Images/athena.gif"
 import medusa2 from "./Images/medusa2.png"
 import text from "./Images/text-medusa.png"
 import medusagif from "./Images/medusa.gif"
-import poom from "./Images/poom-1.png"
-import dear from "./Images/dear-2.png"
-import earn from "./Images/earn-3.png"
-import book from "./Images/book-4.png"
-import phing from "./Images/phing-5.png"
-import mook from "./Images/mook-6.png"
 
 function Content() {
   return (
@@ -90,29 +84,7 @@ function Content() {
           {/* ภาพต่อ */}
       </section>
       <section className='banner-bg9' id="about">
-        <div className='textme'>
-          <h1><b>About Us</b></h1>
-        </div>
-          <div className='boxbox'>
-          <div>
-            <img src={poom} className='poom-1'></img>
-          </div>
-          <div>
-            <img src={dear} className='dear-2'></img>
-          </div>
-          <div>
-            <img src={earn} className='earn-3'></img>
-          </div>
-          <div>
-            <img src={book} className='book-4'></img>
-          </div>
-          <div>
-            <img src={phing} className='phing-5'></img>
-          </div>
-          <div>
-            <img src={mook} className='mook-6'></img>
-          </div>
-          </div>
+          {/* ทำตรงนี้  */}
       </section>
     </div>
   );
