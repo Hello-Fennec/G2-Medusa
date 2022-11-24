@@ -105,7 +105,7 @@ html{
     width: 300px;
     height: 150px;
     position: relative;
-    z-index: 40;
+    z-index: 60;
     top: 28rem;
     left: 8rem;
 }
@@ -180,4 +180,9 @@ html{
     top:-2rem;
     left: 2rem;
 }
+
+/* animation start */
+
+
+/* animation end */
 
