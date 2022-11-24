@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+.banner-bg{
+    height: 100vh;
+    background: url(./Images/sky.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-bg2{
+    height: 119px;
+    background-image: url(./Images/Rectangle\ 13.png);
+    background-size: cover;
+}
+
+.banner-bg3{
+    height: 1451px;
+    background-image: url(./Images/image\ 8.png);
+    background-size: cover;
+}
+
+.banner-bg4{
+    height: 155px;
+    background-image: url(./Images/Rectangle\ 16.png);
+    background-size: cover;
+}
+
+.banner-bg5{
+    height: 940px;
+    background-image: url(./Images/image\ 9.png);
+    background-size: cover;
+}
+
+.banner-bg6{
+    height: 128px;
+    background-image: url(./Images/Rectangle\ 15.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+.banner-bg7{
+    height: 1028px;
+    background-image: url(./Images/6276023\ 1.png);
+    background-size: cover;
+}
+
+.banner-bg8{
+    height: 109px;
+    background-image: url(./Images/Rectangle\ 14.png);
+    background-size: cover;
+}
+
+.banner-bg9{
+    height: 824px;
+    background-image: url(./Images/Glass\ Effect\ Card.png);
+    background-size: cover;
+}
+
+.medusa-head{
+    position: absolute;
+    top: -5rem;
+    z-index: 40;
+    
+}
+
+.font-head{
+    position: relative;
+    left: 35rem;
+    top: 15rem;
+    z-index: 50;
+}
+
+.cloudright{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 29rem;
+    left: 70rem;
+}
+
+.info1{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    z-index: 40;
+    top: 32rem;
+    left: 15rem;
+}
+
+.cloud1{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    z-index: 60;
+    top: 28rem;
+    left: 8rem;
+}
+
+.cloud2{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: 22rem;
+    left: 20rem;
+}
+
+.info2{
+    position: relative;
+    top: 5rem;
+    left: 7rem;
+    width: 650px;
+}
+
+.cloudsd{
+    position: relative;
+    bottom: 8rem;
+    left: 70rem;
+}
+
+.sanc{
+    position: relative;
+    bottom: 18rem;
+}
+.ground{
+    position: relative;
+    bottom: 35rem;
+}
+
+.athena{
+    width: 2000px;
+    position: relative;
+    right:15rem;
+    bottom: 10rem;
+}
+
+.info3{
+    width: 700px;
+    position: relative;
+    bottom: 71rem;
+    left: 43rem;
+    z-index: 40;
+}
+
+.cloud3{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 81rem;
+    left:14rem;
+}
+
+.medusa2{
+    position: relative;
+    bottom: 78rem;
+    left: 33rem;
+}
+
+.text-medusa{
+    margin: 0 auto;
+}
+
+.gif-medusa{
+    width: 100%;
+    height: 110%;
+    position: relative;
+    top:-2rem;
+    left: 2rem;
+}
+
+/* animation start */
+
+
+/* animation end */
+
