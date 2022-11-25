@@ -74,7 +74,7 @@ html{
     position: absolute;
     top: -5rem;
     z-index: 40;
-    
+    animation: yourAnim3 0.7s linear 0.7s infinite alternate none;
 }
 
 .font-head{
@@ -90,6 +90,7 @@ html{
     position: absolute;
     top: 29rem;
     left: 70rem;
+    animation: yourAnim3 0.7s linear 0.7s infinite alternate none;
 }
 
 .info1{
@@ -101,21 +102,40 @@ html{
     left: 15rem;
 }
 
+@keyframes AnimationCloud{
+    0% {
+        transform:  scale(1.03);
+    }
+    100% {
+    }
+}
+
+@keyframes yourAnim3{
+    0% {
+        transform:  scale(1.02);
+    }
+    100% {
+    }
+}
+
 .cloud1{
-    width: 300px;
-    height: 150px;
-    position: relative;
+    width: 588px;
+    height: 258px;
+    position: absolute;
     z-index: 60;
-    top: 28rem;
-    left: 8rem;
+    top: 37rem;
+    left: -6rem;
+    animation: AnimationCloud 0.7s linear 0.7s infinite alternate none;
 }
 
 .cloud2{
-    width: 300px;
-    height: 150px;
-    position: relative;
-    top: 22rem;
+    width: 450px;
+    height: 190px;
+    position: absolute;
+    top: 44rem;
     left: 20rem;
+    z-index: 50;
+    animation:  AnimationCloud 0.7s linear 0.7s infinite alternate none;
 }
 
 .info2{
@@ -129,6 +149,7 @@ html{
     position: relative;
     bottom: 8rem;
     left: 70rem;
+    animation:  AnimationCloud 0.7s linear 0.7s infinite alternate none;
 }
 
 .sanc{
@@ -161,6 +182,7 @@ html{
     position: relative;
     bottom: 81rem;
     left:14rem;
+    animation:  AnimationCloud 0.7s linear 0.7s infinite alternate none;
 }
 
 .medusa2{
@@ -181,53 +203,35 @@ html{
     left: 2rem;
 }
 
+.boxbox div:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 15px 10px #8ac547;
+    border-radius: 38px;
+}
+
+
 .boxbox{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     width: fit-content;
-    padding-top: 3em;
-    gap: 20px;
-    
+    padding-top: 4em;
+    gap: 3rem;
 }
-.poom-1{
+
+.poom-1,.dear-2,.earn-3,.book-3,.phing-4,.mook-5{
     flex-basis: 33.33%;
     width: 25em;
     height: 15em;
 }
-.dear-2{
-    flex-basis: 33.33%;
-    width: 25em;
-    height: 15em;
-}
-.earn-3{
-    flex-basis: 33.33%;
-    width: 25em;
-    height: 15em;
-}
-.book-4{
-    flex-basis: 33.33%;
-    width: 25em;
-    height: 15em;
-}
-.phing-5{
-    flex-basis: 33.33%;
-    width: 25em;
-    height: 15em;
-}
-.mook-6{
-    flex-basis: 33.33%;
-    width: 25em;
-    height: 15em;
-}
+
+
 .textme {
     font-size: 4em;
    text-align: center;
    padding-top: 40px;
    color: white;
 }
-/* animation start */
 
 
-/* animation end */
 
