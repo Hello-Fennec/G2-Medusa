@@ -1,6 +1,6 @@
 # Group 2-Medusa
 
-# not responsive 
+## ดูแบบ 125% นะครับ
 
 # Getting Started with Create React App
 
